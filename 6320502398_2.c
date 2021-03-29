@@ -38,14 +38,6 @@ int main()
     }
     else
     {
-        for(i=0; i<n; i++)
-        {
-            if(min>number[i])
-            {
-                min=number[i];
-                nub_min=i+1;
-            }
-        }
-        printf("%d %d",min,max);
+        printf("%d",max);
     }
 }
